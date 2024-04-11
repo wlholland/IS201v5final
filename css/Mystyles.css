@@ -1,0 +1,150 @@
+/* h1{
+    color: rgb(255, 255, 255);
+} */
+
+#new-page{
+    background-color: rgb(253, 253, 255);
+}
+
+#headerbannana{
+    color: black;
+}
+
+
+ul{
+    list-style-position: inside;
+    /* text-align: left; */
+}
+
+ol{
+    list-style-position: inside;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%; 
+}
+
+iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%; 
+}
+
+/* a{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+} */
+
+/* #centeralign{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    width: 40%; /* Adjust the width to your preference */
+    /*margin: 0 auto; Center-align the list */
+    /* padding-left: 0px; Left-indent the bullet points */
+/*}/*
+
+/* li{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+} */ 
+
+#centeralign {
+    width: 80%; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center-align the list */
+    text-align: left; /* Left-align the list items */
+    margin-left: 28%;
+}
+
+#centeralign li {
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+#centeralign ul {
+    padding-left: 20px; /* Indent the unordered list */
+}
+
+#centeralign p {
+    margin: 0;
+    text-align: left; /* left-align the sub-category text */
+}
+
+#newcentersub{
+    margin: 0;
+    text-align: center; /* Center-align the paragraphs */
+}
+
+#newcentersub1{
+    margin: 0;
+    text-align: center; /* Center-align the paragraphs */
+    margin-left: 40%;
+}
+
+
+/*nav formatting*/
+
+.common{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: lightgrey;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+nav a{
+    float:center;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;   
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgb(147, 156, 165);
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.footer{
+    background-color: black;
+    height: 25px;
+    bottom: 0px;
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    padding-top: 1px;
+    font-size: 10px;
+    color: white;
+}
+
+body {
+    border: 5px solid black; /* Add a thin border to the entire page */
+}
+
+#navicenter{
+    text-align: center; 
+}
